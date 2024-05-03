@@ -1,0 +1,58 @@
+header{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    color:azure;
+    margin: 10px;
+    padding: 1px;
+    background-color:#c59f9f;
+    border: 2px solid #4a3f3f;
+}
+
+body{background-color:rgb(234, 234, 234)}
+
+.gameTag{
+    background-color: #fdfdfd;
+    border: 3px solid #4a3f3f;
+    padding: 30px;
+    margin: 10px;
+}
+.gameTag:hover{
+    background-color: #e0aaaa;
+}
+
+.gameTitle{
+    font-size: 35px;
+    max-width: 1000px;
+    max-height: 500px;
+    margin: 10px auto;
+    margin-right: 50px;
+}
+
+.gameInfo{
+    font-size: 18px;
+    max-width: 1000px;
+    max-height: 500px;
+    margin: 5px auto;
+}
+
+.listImg{
+    float: right;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2), 0 3px 5px 0 rgba(0,0,0.19);
+    width: 200px;
+    height: auto;
+    margin-right: 30px;
+    padding: 5px;
+}
+
+.games_List{
+    display: flex;
+    align-items: center;
+
+    list-style-type: none;
+    position: absolute;
+    align-items: center;
+    padding: 30px;
+    background-color: #fdfdfd;
+    border: 3px solid #4a3f3f;
+}
+

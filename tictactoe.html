@@ -1,27 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
+
+<!--Referencing Prof. Daryl Posnet TicTacToe Tutorial-->
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tic Tac Toe - Game Arcade</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>TIC TAC TOE - OnlineGames</title>
+    <!--<link rel="stylesheet" href="styles.css">-->
     <link rel="stylesheet" href="tictactoe.css">
 </head>
+
 <body>
+    <!--Return to Main Menu-->
     <header>
-        <h1><a href="index.html">Game Arcade</a></h1>
+        <h1><a href="menu.html">OnlineGames</a></h1>
     </header>
 
-    <div id="gameContainer" class="game-play-area">
-        <h2>Tic Tac Toe</h2>
-        <div id="difficultySelection">
+    <!--TicTacToe Game-->
+    <div id="gameContainer" class="game_Area">
+        <h2>TIC TAC TOE</h2>
+        <!--Change difficulty-->
+        <div id="difficultySelect">
             <label>Difficulty:</label>
             <input type="radio" name="difficulty" id="easy" value="easy"> Easy
             <input type="radio" name="difficulty" id="medium" value="medium" checked> Medium
             <input type="radio" name="difficulty" id="hard" value="hard"> Hard
         </div>
-        <div id="gameBoard" class="board">
-            <!-- Creating 9 cells for the Tic Tac Toe grid -->
+        <!--Create 9cells for 3x3 Grid-->
+        <div id="gameGrid" class="grid">
             <button class="cell" data-cell-index="0"></button>
             <button class="cell" data-cell-index="1"></button>
             <button class="cell" data-cell-index="2"></button>
@@ -32,13 +39,12 @@
             <button class="cell" data-cell-index="7"></button>
             <button class="cell" data-cell-index="8"></button>
         </div>
-        <div id="resultDisplay">Player X's turn</div>
+
+        <!--Text field for instructions-->
+        <div id="instText">Player X's turn</div>
+        <!--Restart Button-->
         <button id="restartButton" onclick="restartGame()">Restart Game</button>
     </div>
-
-    <footer>
-        <p>Copyright &copy; 2024 Game Arcade</p>
-    </footer>
 
     <script src="tictactoe.js"></script>
 </body>

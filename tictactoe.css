@@ -1,0 +1,58 @@
+header{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    color:azure;
+    padding: 1px;
+    background-color:#c59f9f;
+    border: 2px solid #4a3f3f;
+}
+
+body{background-color:rgb(234, 234, 234)}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Creates a 3x3 grid */
+    gap: 10px; /* Space between cells */
+    margin: 20px auto; /* Centering the grid */
+    max-width: 300px; /* Restricting the maximum width of the grid */
+}
+
+.cell {
+    background-color: #f9eecf;
+    border: 3px solid #4a3f3f;
+    font-size: 48px;
+    font-weight: bold;
+    cursor: pointer;
+    aspect-ratio: 1 / 1; /* Ensures that cells are square */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px; /* Set a fixed height for better visual */
+    color: #444; /* Default text color */
+}
+
+.cell.red { color: rgb(218, 99, 99); }
+.cell.blue { color: rgb(58, 58, 178); }
+
+.cell:hover {
+    background-color: #d7c3a2; /* Hover effect for cells */
+}
+
+#instText{
+    font-size: 24px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+#restartButton{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+    width: 100px;
+    margin: 20px auto;
+}
+#restartButton:hover{
+    background-color:grey
+}
+.game_Area{
+    text-align: center;
+}
