@@ -70,3 +70,13 @@ header{
     position: absolute;
     cursor: pointer;
   }
+
+  a:link{
+    color:#3a3636;
+  }
+  a:visited{
+    color:#3a3636;
+  }
+  a:link, a:visited{
+    text-decoration: none;
+  }

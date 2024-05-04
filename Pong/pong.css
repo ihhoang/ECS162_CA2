@@ -1,0 +1,96 @@
+body{background-color:rgb(234, 234, 234);}
+
+header{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    color:azure;
+    padding: 1px;
+    background-color:#c59f9f;
+    border: 3px solid #4a3f3f;
+    border-radius: 15px 50px 50px 15px;
+}
+
+h2{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    padding:5px;
+    margin:0;
+}
+
+.title{
+    text-align: center;
+}
+
+.game_Area{
+    width: 90vmin;
+    height: 90vmin;
+    border: 5px solid rgb(203, 71, 71);
+    margin: auto;
+    display: flex;
+}
+#score{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+}
+#startButton{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    width: 100px;
+    margin: 5px auto;
+}
+
+.board{
+    width: 1%;
+    height: 20%;
+    background: rgb(203, 71, 71);
+}
+
+#buttons{
+    display: block;
+    position: relative;
+    top: 100%;
+    margin: 50px auto;
+    width: 100%;
+    height: fit-content;
+    left: 0;
+    align-items: center;
+}
+
+#player{
+    position: relative;
+    left: 1%;
+    top: 40%;
+}
+
+#ai{
+    position: relative;
+    left: 93%;
+    top: 40%;
+}
+
+#court{
+    background-color: rgb(53, 53, 95);
+    display: inline-block;
+    position: relative;
+    width: 93.5%;
+    height: inherit;
+}
+#ball{
+    height: 4%;
+    width: 4%;
+    background-color: rgb(203, 71, 71);
+    border-radius: 100%;
+    position: relative;
+    left: 1%;
+    top: 58%;
+}
+
+a:link{
+    color:#3a3636;
+}
+a:visited{
+    color:#3a3636;
+}
+a:link, a:visited{
+    text-decoration: none;
+}
