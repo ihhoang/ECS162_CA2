@@ -2,25 +2,27 @@ header{
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 30px;
     color:azure;
-    margin: 10px;
     padding: 1px;
     background-color:#c59f9f;
-    border: 2px solid #4a3f3f;
+    border: 3px solid #4a3f3f;
+    border-radius: 15px 50px 50px 15px;
 }
 
-body{background-color:rgb(234, 234, 234)}
+body{background-color:rgb(234, 234, 234);}
 
 .gameTag{
     background-color: #fdfdfd;
     border: 3px solid #4a3f3f;
     padding: 30px;
     margin: 10px;
+    border-radius: 15px 15px 15px 15px;
 }
 .gameTag:hover{
     background-color: #e0aaaa;
 }
 
 .gameTitle{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 35px;
     max-width: 1000px;
     max-height: 500px;
@@ -29,6 +31,7 @@ body{background-color:rgb(234, 234, 234)}
 }
 
 .gameInfo{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 18px;
     max-width: 1000px;
     max-height: 500px;
@@ -54,5 +57,17 @@ body{background-color:rgb(234, 234, 234)}
     padding: 30px;
     background-color: #fdfdfd;
     border: 3px solid #4a3f3f;
+    border-radius: 15px 50px 50px 15px;
+}
+
+a:link{
+    color:#3a3636;
+}
+a:visited{
+    color:#3a3636;
+}
+
+a:link, a:visited{
+    text-decoration: none;
 }
 

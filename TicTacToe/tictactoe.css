@@ -4,10 +4,16 @@ header{
     color:azure;
     padding: 1px;
     background-color:#c59f9f;
-    border: 2px solid #4a3f3f;
+    border: 3px solid #4a3f3f;
+    border-radius: 15px 50px 50px 15px;
 }
 
-body{background-color:rgb(234, 234, 234)}
+body{background-color:rgb(234, 234, 234);}
+
+h2{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 35px;
+}
 
 .grid {
     display: grid;
@@ -39,20 +45,37 @@ body{background-color:rgb(234, 234, 234)}
 }
 
 #instText{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 24px;
     margin: 20px auto;
     text-align: center;
 }
 
+#difficultySelect{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
 #restartButton{
-    font-family:'Times New Roman', Times, serif;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 20px;
     width: 100px;
     margin: 20px auto;
 }
+
 #restartButton:hover{
     background-color:grey
 }
+
 .game_Area{
     text-align: center;
+}
+
+a:link{
+    color:#3a3636;
+}
+a:visited{
+    color:#3a3636;
+}
+a:link, a:visited{
+    text-decoration: none;
 }

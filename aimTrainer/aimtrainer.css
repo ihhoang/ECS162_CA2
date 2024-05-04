@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+}
+
+header{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    color:azure;
+    padding: 1px;
+    background-color:#c59f9f;
+    border: 3px solid #4a3f3f;
+    border-radius: 15px 50px 50px 15px;
+}
+
+.title{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    padding:0;
+    margin:0;
+}
+  
+.game_Area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+  
+  #score-container {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    margin: 10px 0px;
+  }
+  
+  #controls {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    margin: 10px 0px;
+  }
+  
+  #controls button {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    background: rgb(224, 107, 107);
+    color: #eeeeee;
+    padding: 10px;
+    border: 0;
+    cursor: pointer;
+    margin:0;
+  }
+  
+  #controls input {
+    padding: 10px;
+    border: 2px solid red;
+    width: 100px;
+  }
+  
+  #aim-trainer {
+    width: 80%;
+    height: 80%;
+    border: 2px solid red;
+    position: relative;
+    background: #efefef;
+  }
+  
+  .target {
+    border-radius: 50%;
+    background: red;
+    position: absolute;
+    cursor: pointer;
+  }

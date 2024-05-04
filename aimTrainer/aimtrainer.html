@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="aimtrainer.css" />
+    <title>Aim Trainer</title>
+  </head>
+
+  <body>
+    <!--Return to Main Menu-->
+    <header>
+      <h1><a href="../menu.html">OnlineGames</a></h1>
+    </header>
+    
+    <div class="game_Area">
+      <p class="title">Aim Trainer</p>
+      <div id="score-container">
+        <span>Score:</span>
+        <span id="score">0</span>
+      </div>
+      <div id="controls">
+        <button id="start">Start</button>
+        <button id="stop">Stop</button>
+        <label>Target size(px):</label>
+        <input type="number" id="target-size" min="30" max="100"/>
+      </div>
+      <!--gameplay box-->
+      <div id="aim-trainer"></div>
+    </div>
+
+    <script src="target.js"></script>
+    <script src="aimtrainer.js"></script>
+    <script src="gameConstruct.js"></script>
+  </body>
+</html>
